@@ -8,13 +8,25 @@ computer-science-society-website/
 │   │   └── script.js        
 │   └── images/              # Images and assets
 │
-├── pages/                   
-│   ├── events.html          # Events page
-│   ├── resources.html       # Resources page
-│   ├── contact.html         # Contact Us page
-│   └── membership.html      # Membership form
+├── components/              # Reusable components (newly added)
+│
+├── pages/                   # Individual page folders
+│   ├── events/              # Events page folder
+│   │   ├── events.html      
+│   │   ├── events.css       
+│   │   └── events.js        
+│   ├── resources/           # Resources page folder
+│   │   ├── resources.html   
+│   │   ├── resources.css    
+│   │   └── resources.js     
+│   ├── contact/             # Contact Us page folder
+│   │   ├── contact.html     
+│   │   ├── contact.css      
+│   │   └── contact.js       
+│   └── membership/          # Membership form folder
+│       ├── membership.html  
+│       ├── membership.css   
+│       └── membership.js    
 │
 ├── index.html               # Main homepage
 ├── README.md                # Documentation
-└── package.json             # Node.js file (if applicable)
-
