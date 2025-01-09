@@ -1,19 +1,12 @@
 class SignInButton extends HTMLElement {
-    constructor() {
-        super();
+  constructor() {
+    super();
 
-        const shadow = this.attachShadow({ mode: 'open' });
+    const shadow = this.attachShadow({ mode: "open" });
 
-        shadow.innerHTML = `
+    shadow.innerHTML = `
             <button>Sign In</button>
             <style>
-                :host {
-                        display: flex;
-                        justify-content: flex-end;
-                         width: 100%;
-                        
-}
-
                 button {
                     background-color: rgba(2, 2, 255, 0.9);
                     border: 0;
@@ -32,7 +25,7 @@ class SignInButton extends HTMLElement {
                 background-color: rgb(20, 122, 255);}
             </style>
         `;
-    }
+  }
 }
 
-customElements.define('sign-in-button', SignInButton);
+customElements.define("sign-in-button", SignInButton);
